@@ -1,3 +1,3 @@
-export function sum(numbers) {
-  return numbers.reduce((acc, val) => acc + val, 0);
+export function sum(arr) {
+  return _.sum(arr);
 }
